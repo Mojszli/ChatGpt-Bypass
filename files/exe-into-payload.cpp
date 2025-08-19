@@ -29,7 +29,7 @@ void writeHeaderFile(const std::vector<unsigned char>& data, const std::string& 
 
 int main(int argc, char* argv[]) {
     if (argc < 3) {
-        std::cerr << "Usage: " << argv[0] << " <input.exe> <output.h>" << std::endl;
+        std::cerr << "Usage: " << argv[0] << " <input.exe> <output.txt>" << std::endl;
         return 1;
     }
 
